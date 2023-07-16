@@ -1,4 +1,4 @@
-package org.example.designPatterns.structural.dynamicProxy.aop;
+package org.example.designPatterns.structural.proxy.dynamicProxy.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -27,7 +27,7 @@ public class CacheAspectj {
     /**
      * 定义切点，使用切点表达式匹配到连接点（程序执行到的某一时刻或状态）
      */
-    @Pointcut("execution(* org.example.designPatterns.structural.dynamicProxy.aop.DatabaseDataQuery.query(..))")
+    @Pointcut("execution(* org.example.designPatterns.structural.proxy.dynamicProxy.aop.DatabaseDataQuery.query(..))")
     public void pointcut() {}
 
     /**

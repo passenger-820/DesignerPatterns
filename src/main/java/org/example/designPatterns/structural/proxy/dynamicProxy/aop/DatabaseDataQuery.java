@@ -1,4 +1,4 @@
-package org.example.designPatterns.structural.dynamicProxy.aop;
+package org.example.designPatterns.structural.proxy.dynamicProxy.aop;
 
 import org.springframework.stereotype.Component;
 

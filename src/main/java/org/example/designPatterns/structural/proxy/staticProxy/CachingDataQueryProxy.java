@@ -1,4 +1,4 @@
-package org.example.designPatterns.structural.staticProxy;
+package org.example.designPatterns.structural.proxy.staticProxy;
 
 import java.util.HashMap;
 import java.util.Map;

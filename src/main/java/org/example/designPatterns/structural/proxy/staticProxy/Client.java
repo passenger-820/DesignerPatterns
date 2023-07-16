@@ -1,4 +1,4 @@
-package org.example.designPatterns.structural.staticProxy;
+package org.example.designPatterns.structural.proxy.staticProxy;
 
 /**
  * 在客户端代码中使用缓存代理

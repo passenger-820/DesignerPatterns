@@ -1,4 +1,4 @@
-package org.example.designPatterns.structural.dynamicProxy.cglib;
+package org.example.designPatterns.structural.proxy.dynamicProxy.cglib;
 
 import net.sf.cglib.proxy.Enhancer;
 

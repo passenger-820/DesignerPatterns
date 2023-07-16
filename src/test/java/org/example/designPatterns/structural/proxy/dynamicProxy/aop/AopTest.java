@@ -1,6 +1,7 @@
-package org.example.designPatterns.structural.dynamicProxy.aop;
+package org.example.designPatterns.structural.proxy.dynamicProxy.aop;
 
 import jakarta.annotation.Resource;
+import org.example.designPatterns.structural.proxy.dynamicProxy.aop.DataQuery;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

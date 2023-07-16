@@ -1,4 +1,4 @@
-package org.example.designPatterns.structural.dynamicProxy.aop;
+package org.example.designPatterns.structural.proxy.dynamicProxy.aop;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

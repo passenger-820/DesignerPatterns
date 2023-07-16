@@ -1,4 +1,4 @@
-package org.example.designPatterns.structural.dynamicProxy.cglib;
+package org.example.designPatterns.structural.proxy.dynamicProxy.cglib;
 
 /**
  * 数据查询类，它从数据库中检索数据

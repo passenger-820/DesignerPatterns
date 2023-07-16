@@ -1,4 +1,4 @@
-package org.example.designPatterns.structural.dynamicProxy.jdk;
+package org.example.designPatterns.structural.proxy.dynamicProxy.jdk;
 
 /**
  * 数据查询类，它从数据库中检索数据
