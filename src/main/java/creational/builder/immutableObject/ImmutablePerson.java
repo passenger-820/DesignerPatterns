@@ -11,7 +11,7 @@ public final class ImmutablePerson {
     private final int age;
     private final String address;
 
-    //私有化构造函数，让外界无法直接通过ImmutablePerson类来构建
+    //私有化构造函数，让外界无法直接通过ImmutablePerson类来构建，构造器传入的为Builder。
     //通过 Builder 类的方法来设置属性值，可以选择性地设置需要的属性，而不需要在构造函数中传递一堆参数。这样可以更灵活地构建对象，并且只设置感兴趣的属性。
     //如果在构建 ImmutablePerson 对象时不一次性给外部类的属性赋值，可能会导致 ImmutablePerson 对象处于不完整或不一致的状态。【对象处于无效状态】
     private ImmutablePerson(Builder builder) {
