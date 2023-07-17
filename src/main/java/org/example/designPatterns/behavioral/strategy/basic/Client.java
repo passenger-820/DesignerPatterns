@@ -1,4 +1,4 @@
-package org.example.designPatterns.behavioral.strategy;
+package org.example.designPatterns.behavioral.strategy.basic;
 
 /**
  * 客户端可以使用`Calculator`类来执行不同的运算

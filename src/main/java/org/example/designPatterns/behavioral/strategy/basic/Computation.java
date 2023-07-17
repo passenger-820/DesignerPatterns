@@ -1,4 +1,4 @@
-package org.example.designPatterns.behavioral.strategy.computationFactory;
+package org.example.designPatterns.behavioral.strategy.basic;
 
 /**
  * 策略接口

@@ -1,4 +1,4 @@
-package org.example.designPatterns.behavioral.strategy;
+package org.example.designPatterns.behavioral.strategy.factory;
 
 /**
  * 上下文类`Calculator`，持有一个策略对象，让客户端可以使用这个类来执行不同的运算
@@ -11,7 +11,8 @@ public class Calculator {
         this.computation =computation;
     }
     //获得计算结果
-    public double execute(double num1, double num2){
-        return computation.compute(num1,num2);
+    public void execute(String sign, double num1, double num2){
+        double result = computation.compute(num1, num2);
+        System.out.println(num1 + sign + num2 + "=" + result);
     }
 }

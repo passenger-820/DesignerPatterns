@@ -1,4 +1,4 @@
-package org.example.designPatterns.behavioral.strategy;
+package org.example.designPatterns.behavioral.strategy.factory;
 
 /**
  * 策略接口

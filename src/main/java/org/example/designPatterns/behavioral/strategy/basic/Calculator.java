@@ -1,4 +1,4 @@
-package org.example.designPatterns.behavioral.strategy.computationFactory;
+package org.example.designPatterns.behavioral.strategy.basic;
 
 /**
  * 上下文类`Calculator`，持有一个策略对象，让客户端可以使用这个类来执行不同的运算
